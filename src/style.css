@@ -5,7 +5,7 @@ body {
 
 .navbar-container {
     background-color: #21222A;
-    padding: 30px 25px;
+    padding: 25px 25px;
 }
 
 .navbar-container nav{
@@ -26,11 +26,14 @@ body {
 }
 
 .main-container {
-    background: #282D35; 
+    background: #24272e; 
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
+    background-image: url(./assets/react-full-logo.jpg);
+    background-repeat: no-repeat;
+    background-position: right 30%;
 }
 
 .main-container h1 {
@@ -44,6 +47,7 @@ body {
 .main-container ul {
     color: white;
     padding-left: 75px;
+
 }
 
 .main-container ul li {
@@ -57,5 +61,14 @@ body {
     color: #61DAF8;
     font-size: 1.5rem;
 }
+
+
+
+
+
+
+
+
+
 
 
