@@ -1,17 +1,17 @@
 body {
     font-family: 'Inter', sans-serif;
-    padding: 0;
     margin: 0;
 }
 
 .navbar-container {
     background-color: #21222A;
-    padding-left: 26px;
-    padding: 31px;
+    padding: 30px 25px;
 }
 
 .navbar-container nav{
     display: flex;
+    height: 100%;
+    align-items: center;
 }
 
 .navbar-container nav img {
@@ -25,5 +25,37 @@ body {
     color: #61DAF8; 
 }
 
+.main-container {
+    background: #282D35; 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container h1 {
+    padding-left: 27px;
+    padding-top: 30px;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.main-container ul {
+    color: white;
+    padding-left: 75px;
+}
+
+.main-container ul li {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-block: 10px;
+    line-height: 19px;
+}
+
+.main-container ul li::marker {
+    color: #61DAF8;
+    font-size: 1.5rem;
+}
 
 
