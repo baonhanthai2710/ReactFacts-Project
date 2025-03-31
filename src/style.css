@@ -1,8 +1,29 @@
 body {
     font-family: 'Inter', sans-serif;
-    font-weight: 400;
+    padding: 0;
+    margin: 0;
 }
 
-h1 {
-    font-weight: 700; 
+.navbar-container {
+    background-color: #21222A;
+    padding-left: 26px;
+    padding: 31px;
 }
+
+.navbar-container nav{
+    display: flex;
+}
+
+.navbar-container nav img {
+    margin-right: 10px;
+    width: 29px;
+}
+
+.navbar-container nav h1 {
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #61DAF8; 
+}
+
+
+
